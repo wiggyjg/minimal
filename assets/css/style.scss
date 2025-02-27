@@ -2,3 +2,23 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+// Custom background color for body
+body {
+  background-color: #f0f0f0;  // Change to your preferred background color
+  color: #333333;  // Text color
+}
+
+// Custom link color
+a {
+  color: #3498db;  // Change link color
+}
+
+a:hover {
+  color: #2980b9;  // Change link hover color
+}
+
+// Custom header background color
+.site-header {
+  background-color: #333;  // Header background color
+  color: white;  // Header text color
